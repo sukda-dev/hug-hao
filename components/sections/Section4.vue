@@ -5,7 +5,7 @@
     <div class="cards flex justify-between pt-16">
       <div class="crad">
         <div class="crad__img">
-          <img class="absolute" src="~/public/images/card1.png" alt="" srcset="">
+          <img class="absolute" src="/images/card1.png" alt="" srcset="">
         </div>
         <div class="crad__content">
           <p class="text-lg font-semibold text-center">ออกแบบการ์ดในสไตล์ที่เป็นคุณ</p>
@@ -15,7 +15,7 @@
       </div>
       <div class="crad">
         <div class="crad__img">
-          <img class="absolute" src="~/public/images/card2.png" alt="" srcset="">
+          <img class="absolute" src="/images/card2.png" alt="" srcset="">
         </div>
         <div class="crad__content">
           <p class="text-lg font-semibold text-center">รายละเอียดงานและปฏิทินนับถอยหลัง</p>
@@ -25,7 +25,7 @@
       </div>
       <div class="crad">
         <div class="crad__img">
-          <img class="absolute" src="~/public/images/card3.png" alt="" srcset="">
+          <img class="absolute" src="/images/card3.png" alt="" srcset="">
         </div>
         <div class="crad__content">
           <p class="text-lg font-semibold text-center">นำทางด้วย Google Map</p>

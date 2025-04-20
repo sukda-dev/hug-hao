@@ -8,7 +8,7 @@
       </p>
     </div>
     <div class="relative w-[60.625rem] h-[58.063rem] mt-9">
-      <img class="absolute left-1/2 transform -translate-x-1/4" src="~/public/images/sec1-img.png" alt="" srcset="">
+      <img class="absolute left-1/2 transform -translate-x-1/4" src="/images/sec1-img.png" alt="" srcset="">
     </div>
   </div>
 </template>

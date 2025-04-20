@@ -66,15 +66,15 @@ export default {
 
 
   &--facebook {
-    background-image: url("~/public/images/icon-facebook.svg");
+    background-image: url("/images/icon-facebook.svg");
   }
 
   &--email {
-    background-image: url("~/public/images/icon-email.svg");
+    background-image: url("/images/icon-email.svg");
   }
 
   &--phone {
-    background-image: url("~/public/images/icon-call.svg");
+    background-image: url("/images/icon-call.svg");
   }
 }
 </style>

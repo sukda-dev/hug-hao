@@ -22,27 +22,27 @@
       <swiper-slide>
         <div class="frame">
           <!-- Added descriptive alt text -->
-          <img class="gif" src="~/public/gifs/gif1.gif" alt="App demo screen 1" />
+          <img class="gif" src="/gifs/gif1.gif" alt="App demo screen 1" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="frame">
-          <img class="gif" src="~/public/gifs/gif2.gif" alt="App demo screen 2" />
+          <img class="gif" src="/gifs/gif2.gif" alt="App demo screen 2" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="frame">
-          <img class="gif" src="~/public/gifs/gif3.gif" alt="App demo screen 3" />
+          <img class="gif" src="/gifs/gif3.gif" alt="App demo screen 3" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="frame">
-          <img class="gif" src="~/public/gifs/gif4.gif" alt="App demo screen 4" />
+          <img class="gif" src="/gifs/gif4.gif" alt="App demo screen 4" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="frame">
-          <img class="gif" src="~/public/gifs/gif5.gif" alt="App demo screen 5" />
+          <img class="gif" src="/gifs/gif5.gif" alt="App demo screen 5" />
         </div>
       </swiper-slide>
     </swiper>
@@ -112,7 +112,7 @@ export default {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url('~/public/images/iphone.png');
+    background-image: url('/images/iphone.png');
     background-size: contain; // Ensure the background fits without stretching disproportionately
     background-repeat: no-repeat;
     background-position: center; // Center the background image

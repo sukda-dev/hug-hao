@@ -60,7 +60,7 @@
       <div class="card card--3">
         <div class="card-inner">
           <div class="card__rich-media">
-            <img src="~/public/images/qr-code.jpg" alt="" srcset="">
+            <img src="/images/qr-code.jpg" alt="" srcset="">
           </div>
           <div class="card__content">
             <p class="text-2xl font-semibold text-center">สะดวกและรวดเร็ว</p>
@@ -124,7 +124,7 @@ import { Autoplay } from 'swiper/modules'
   &--correct {
     width: .75rem;
     height: .75rem;
-    background-image: url("~/public/images/icon-correct.svg");
+    background-image: url("/images/icon-correct.svg");
   }
 }
 
