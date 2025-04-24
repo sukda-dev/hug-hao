@@ -123,6 +123,9 @@ import { Autoplay } from 'swiper/modules'
     width: 0.6rem;
     height: 0.6rem;
     background-image: url("/images/icon-correct.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
