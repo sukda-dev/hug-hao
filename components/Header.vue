@@ -1,11 +1,11 @@
 <template>
-  <header class="h-36">
-    <nav class="flex items-center h-full rounded-b-[3.125rem] px-11">
-      <div class="flex gap-5 items-center h-fit ">
-        <img class="w-12 h-11" src="/images/logo.svg" alt="">
-        <div class="flex flex-col">
-          <h4 class="text-4xl">Hug Hao</h4>
-          <p class="text-2xl">wedding card design</p>
+  <header class="h-auto">
+    <nav class="flex items-center h-full rounded-b-[3.125rem] px-11 py-3">
+      <div class="flex gap-3 items-center h-fit ">
+        <img class="h-16" src="/images/logo.png" alt="">
+        <div class="h-16 flex flex-col justify-end">
+          <h4 class="text-2xl font-semibold">Hug Hao</h4>
+          <p class="text-xs">wedding card design</p>
         </div>
       </div>
     </nav>

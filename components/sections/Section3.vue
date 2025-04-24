@@ -50,14 +50,11 @@
 </template>
 
 <script>
-// Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
 
-// import required modules
 import { FreeMode, Autoplay } from 'swiper/modules';
 
 export default {
@@ -85,17 +82,17 @@ export default {
 .section3 {
   position: relative;
   width: 100%;
-  height: 46.25rem; // Consider using min-height if content might vary
+  height: 46.25rem; 
   border-radius: 6.25rem;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; // Hide potential overflow from rounded corners
+  overflow: hidden; 
 }
 
 .slider-container {
-  height: 100%; // Take full height of parent
+  height: 100%; 
   width: 19rem;
 }
 
@@ -103,7 +100,7 @@ export default {
   position: relative;
   width: 19rem;
   height: 38.6875rem;
-  box-sizing: border-box; // Include padding/border in element's total width/height
+  box-sizing: border-box; 
 
   &::before {
     content: '';
@@ -113,37 +110,36 @@ export default {
     top: 0;
     left: 0;
     background-image: url('/images/iphone.png');
-    background-size: contain; // Ensure the background fits without stretching disproportionately
+    background-size: contain; 
     background-repeat: no-repeat;
-    background-position: center; // Center the background image
+    background-position: center; 
     z-index: 2;
     pointer-events: none;
   }
 
   .gif {
-    display: block; // Helps prevent extra space below image
+    display: block; 
     width: auto;
     height: 91.5%;
-    max-width: 90%; // Prevent gif from exceeding frame width
+    max-width: 90%; 
     position: absolute;
     left: 50%;
-    bottom: 1.5%; // Adjust positioning slightly if needed
+    bottom: 1.5%; 
     transform: translateX(-50%);
     z-index: 1;
-    border-radius: 0 0 3rem 3rem; // Adjust radius to match visual frame if needed
-    object-fit: cover; // Ensure the gif covers the area nicely
+    border-radius: 0 0 3rem 3rem;
+    object-fit: cover;
   }
 }
 
 .swiper-slide {
-  height: auto; // Let slide height be determined by content
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-// Apply linear transition timing to the wrapper for smooth continuous scroll
 :deep(.swiper-wrapper) {
-  transition-timing-function: linear !important; // Use !important if needed to override Swiper's inline styles
+  transition-timing-function: linear !important;
 }
 </style>
