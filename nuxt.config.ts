@@ -16,16 +16,16 @@ export default defineNuxtConfig({
   ],
   vite: {
     plugins: [tailwindcss()],
-    build: {
-      rollupOptions: {
-        output: {
-          assetFileNames: "assets/[name].[hash][extname]",
-          chunkFileNames: "assets/[name].[hash].js",
-        },
-      },
-    },
-    // Setting publicPath here:
-    base: "/hug-hao/", // GitHub Pages base path (matches your repo name)
+    // build: {
+    //   rollupOptions: {
+    //     output: {
+    //       assetFileNames: "assets/[name].[hash][extname]",
+    //       chunkFileNames: "assets/[name].[hash].js",
+    //     },
+    //   },
+    // },
+    // // Setting publicPath here:
+    // base: "/hug-hao/", 
   },
   app: {
     baseURL: '/hug-hao/',   // ✅ important for assets and routing
