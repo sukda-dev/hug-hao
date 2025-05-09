@@ -1,8 +1,8 @@
 <template>
-  <div class="section1 pt-8 sm:pt-12 md:pt-16">
-    <div class="max-w-xl mx-auto">
-      <h2 class="text-xl sm:text-2xl lg:text-4xl font-semibold text-center">Design Your <br>Memories</h2>
-      <p class="text-base text-center pt-3 sm:pt-5">การ์ดเชิญออนไลน์สุดพิเศษ
+  <div class="section1 pt-6 lg:pt-16">
+    <div class="mx-auto">
+      <h2 class="text-lg sm:text-2xl lg:text-4xl font-semibold text-center uppercase leading-none">Design Your <br>Memories</h2>
+      <p class="max-w-2xs lg:max-w-xl text-xs md:text-base text-center pt-3 sm:pt-5 mx-auto!">การ์ดเชิญออนไลน์สุดพิเศษ
         สร้างสรรค์การ์ดเชิญในสไตล์ที่เป็นคุณ ด้วยดีไซน์ที่หลากหลายครอบคลุมทุกโอกาสสำคัญ พร้อมบอกเล่า
         เรื่องราวในแบบที่ไม่เหมือนใคร <br>สะดวก ใช้งานง่าย
         และรองรับทุกอุปกรณ์!

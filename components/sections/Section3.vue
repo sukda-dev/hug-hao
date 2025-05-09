@@ -1,5 +1,5 @@
 <template>
-  <div class="section3 mt-24">
+  <div class="section3 mt-24 rounded-[3.125rem] lg:rounded-[6.25rem]">
     <swiper
       class="slider-container"
       :direction="'vertical'"
@@ -83,7 +83,6 @@ export default {
   position: relative;
   width: 100%;
   height: 46.25rem; 
-  border-radius: 6.25rem;
   background-color: #ffffff;
   display: flex;
   justify-content: center;

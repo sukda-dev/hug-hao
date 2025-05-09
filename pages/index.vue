@@ -1,6 +1,6 @@
 <template>
 
-  <div class="max-w-screen-xl mx-auto">
+  <div class="px-2 lg:px-0 max-w-full lg:max-w-screen-xl mx-auto ">
     <Header />
     <Section1 />
     <Section2 />
