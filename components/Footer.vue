@@ -1,27 +1,27 @@
 <template>
-  <footer class="pt-16 lg:pt-24">
+  <footer class="pt-16 md:pt-24">
     <div class="mx-auto">
-      <h3 class="text-lg sm:text-2xl lg:text-4xl font-semibold text-center uppercase leading-none">CONTACT US?</h3>
-      <p class="max-w-2xs lg:max-w-lg text-xs md:text-base text-center pt-3 sm:pt-5 mx-auto!">
+      <h3 class="text-lg sm:text-2xl md:text-4xl font-semibold text-center uppercase leading-none">CONTACT US?</h3>
+      <p class="max-w-2xs md:max-w-lg text-xs md:text-base text-center pt-3 sm:pt-5 mx-auto!">
         ปรึกษาและสอบถามข้อมูลเพิ่มเติม เราพร้อมดูแลทุกคำถาม
         เพื่อให้ทุกโอกาสพิเศษของคุณสมบูรณ์แบบที่สุด!</p>
     </div>
 
     <div class="card flex mt-7! mb-24! mx-auto!">
       <div class="card-side w-1/2 flex flex-col justify-center items-center">
-        <h3 class="text-2xl lg:text-4xl text-white">Hug Hao</h3>
+        <h3 class="text-2xl md:text-4xl text-white">Hug Hao</h3>
         <p class="text-base text-white">Wedding Invites</p>
 
-        <div class="icons flex gap-2 lg:gap-4 pt-4">
+        <div class="icons flex gap-2 md:gap-4 pt-4">
           <i class="icon icon--facebook"></i>
           <i class="icon icon--email"></i>
           <i class="icon icon--phone"></i>
         </div>
       </div>
       <div class="card-side w-1/2 flex flex-col justify-center items-center">
-        <p class="text-[0.625rem] lg:text-xs font-semibold text-white">ปรึกษาเราผ่าน LINE</p>
-        <img class="qr-code py-1.5 h-20 lg:h-32" src="/images/line-qr.png" alt="">
-        <p class="text-[0.625rem] lg:text-xs font-semibold text-white">sukda.prompalit</p>
+        <p class="text-[0.625rem] md:text-xs font-semibold text-white">ปรึกษาเราผ่าน LINE</p>
+        <img class="qr-code py-1.5 h-20 md:h-32" src="/images/line-qr.png" alt="">
+        <p class="text-[0.625rem] md:text-xs font-semibold text-white">sukda.prompalit</p>
       </div>
     </div>
   </footer>

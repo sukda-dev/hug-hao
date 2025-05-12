@@ -1,18 +1,18 @@
 <template>
-  <div class="section2 pt-6 lg:pt-16">
+  <div class="section2 pt-6 md:pt-16">
     <div class="mx-auto">
-      <h3 class="text-lg sm:text-2xl lg:text-4xl font-semibold text-center uppercase leading-none">
+      <h3 class="text-lg sm:text-2xl md:text-4xl font-semibold text-center uppercase leading-none">
         ทำไมต้องการ์ดเชิญออนไลน์?</h3>
-      <p class="max-w-2xs lg:max-w-4xl text-xs md:text-base text-center pt-3 sm:pt-5 mx-auto!">การ์ดเชิญออนไลน์สุดพิเศษ
+      <p class="max-w-2xs md:max-w-4xl text-xs md:text-base text-center pt-3 sm:pt-5 mx-auto!">การ์ดเชิญออนไลน์สุดพิเศษ
         สร้างสรรค์การ์ดเชิญในสไตล์ที่เป็นคุณ
         ด้วยดีไซน์ที่หลากหลาย
         ครอบคลุมทุกโอกาสสำคัญ <br>พร้อมบอกเล่า เรื่องราวในแบบที่ไม่เหมือนใคร สะดวก ใช้งานง่าย และรองรับทุกอุปกรณ์!</p>
     </div>
     <div class="max-w-4xl mx-auto">
       <div
-        class="flex justify-center lg:justify-between items-center flex-col lg:flex-row gap-8 gl:gap-0 pt-6 lg:pt-16">
-        <div class="card card--1 w-fit p-4">
-          <div class="card-inner w-3xs ">
+        class="w-full  flex justify-center md:justify-between items-center flex-col md:flex-row gap-8 pt-6 md:pt-16">
+        <div class="card card--1 px-2 py-4 md:w-[calc(100%/3.25)]">
+          <div class="card-inner  max-w-3xs">
             <div class="card__rich-media">
               <h6 class="text-base">สุดคุ้มในราคา</h6>
               <h3 class="text-4xl font-semibold">2,000</h3>
@@ -22,46 +22,46 @@
               </div>
             </div>
             <div class="card__content pt-5">
-              <p class="text-lg lg:text-xl font-semibold text-center">คุ้มค่าและประหยัด</p>
+              <p class="text-lg md:text-xl font-semibold text-center">คุ้มค่าและประหยัด</p>
               <h6 class="text-xs md:text-sm text-center pt-1 px-6">ลดต้นทุนทั้งในเรื่องของการพิมพ์
                 การจัดส่ง และช่วยประหยัดค่าใช้จ่ายได้
                 อย่างมีประสิทธิภาพ</h6>
             </div>
           </div>
         </div>
-        <div class="card card--2 w-fit p-4">
-          <div class="card-inner w-3xs ">
+        <div class="card card--2 px-2 py-4 md:w-[calc(100%/3.25)]">
+          <div class="card-inner  max-w-3xs">
             <Swiper :modules="[Autoplay]" :space-between="20" :slides-per-view="1" :autoplay="{ delay: 3000 }" loop
               class="w-full swiper-container">
               <SwiperSlide>
                 <div class="card__rich-media">
                   <img src="/images/icon-design.png" alt="">
-                  <h6 class="text-xs text-center pt-3.5 px-6">ดีไซน์ปรับแต่งได้อย่างอิสระตามใจคุณ</h6>
+                  <h6 class="text-xs text-center  px-6">ดีไซน์ปรับแต่งได้อย่างอิสระตามใจคุณ</h6>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div class="card__rich-media">
                   <img src="/images/icon-color.png" alt="">
-                  <h6 class="text-xs text-center pt-3.5 px-6">เลือกสี ฟอนต์ รูปภาพ ได้ตามสไตล์ที่ชอบ</h6>
+                  <h6 class="text-xs text-center  px-6">เลือกสี ฟอนต์ รูปภาพ ได้ตามสไตล์ที่ชอบ</h6>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div class="card__rich-media">
                   <img src="/images/icon-features.png" alt="">
-                  <h6 class="text-xs text-center pt-3.5 px-6">เพิ่มฟีเจอร์อินเทอร์ แอคทีฟได้ไม่จำกัด</h6>
+                  <h6 class="text-xs text-center  px-6">เพิ่มฟีเจอร์อินเทอร์ แอคทีฟได้ไม่จำกัด</h6>
                 </div>
               </SwiperSlide>
             </Swiper>
 
             <div class="card__content pt-5">
-              <p class="text-lg lg:text-xl font-semibold text-center">ดีไซน์ปรับแต่งได้ไม่จำกัด</p>
+              <p class="text-lg md:text-xl font-semibold text-center">ปรับแต่งดีไซน์ไม่จำกัด</p>
               <h6 class="text-xs md:text-sm text-center pt-1 px-6">สามารถออกแบบได้ตามสไตล์ที่ต้องการ ทั้งสีสัน ฟอนต์
                 รูปภาพและฟีเจอร์อินเทอร์แอคทีฟต่าง ๆ</h6>
             </div>
           </div>
         </div>
-        <div class="card card--3 w-fit p-4">
-          <div class="card-inner w-3xs ">
+        <div class="card card--3 px-2 py-4 md:w-[calc(100%/3.25)]">
+          <div class="card-inner  max-w-3xs">
             <div class="card__rich-media p-6">
               <div class="qr-scan">
                 <div class="scan"></div>
@@ -72,7 +72,7 @@
               </div>
             </div>
             <div class="card__content pt-5">
-              <p class="text-lg lg:text-xl font-semibold text-center">สะดวกและรวดเร็ว</p>
+              <p class="text-lg md:text-xl font-semibold text-center">สะดวกและรวดเร็ว</p>
               <h6 class="text-xs md:text-sm text-center pt-1 px-6">ส่งคำเชิญได้ทันทีผ่านช่องทางออนไลน์ เช่น Line,
                 Facebook
                 หรือแพลตฟอร์มโซเชียลอื่น ๆ</h6>
@@ -108,6 +108,11 @@ import { Autoplay } from 'swiper/modules'
     align-items: center;
     gap: 0.6rem;
     margin: 2rem auto 0;
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+      width: 8rem;
+      height: 8rem;
+    }
   }
 
 

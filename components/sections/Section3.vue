@@ -1,5 +1,5 @@
 <template>
-  <div class="section3 mt-24 rounded-[3.125rem] lg:rounded-[6.25rem]">
+  <div class="section3 h-[37rem] md:h-[46.25rem] mt-24 rounded-[3.125rem] md:rounded-[6.25rem]">
     <swiper
       class="slider-container"
       :direction="'vertical'"
@@ -20,28 +20,27 @@
       @slideChange="onSlideChange"
     >
       <swiper-slide>
-        <div class="frame">
-          <!-- Added descriptive alt text -->
+        <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
           <img class="gif" src="/gifs/gif1.gif" alt="App demo screen 1" />
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="frame">
+        <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
           <img class="gif" src="/gifs/gif2.gif" alt="App demo screen 2" />
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="frame">
+        <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
           <img class="gif" src="/gifs/gif3.gif" alt="App demo screen 3" />
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="frame">
+        <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
           <img class="gif" src="/gifs/gif4.gif" alt="App demo screen 4" />
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="frame">
+        <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
           <img class="gif" src="/gifs/gif5.gif" alt="App demo screen 5" />
         </div>
       </swiper-slide>
@@ -82,7 +81,6 @@ export default {
 .section3 {
   position: relative;
   width: 100%;
-  height: 46.25rem; 
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -97,8 +95,6 @@ export default {
 
 .frame {
   position: relative;
-  width: 19rem;
-  height: 38.6875rem;
   box-sizing: border-box; 
 
   &::before {
@@ -126,7 +122,7 @@ export default {
     bottom: 1.5%; 
     transform: translateX(-50%);
     z-index: 1;
-    border-radius: 0 0 3rem 3rem;
+    border-radius: 0 0 2rem 2rem;
     object-fit: cover;
   }
 }
