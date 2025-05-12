@@ -62,8 +62,14 @@
         </div>
         <div class="card card--3 w-fit p-4">
           <div class="card-inner w-3xs ">
-            <div class="card__rich-media">
-              <img src="/images/qr-code.jpg" alt="" srcset="">
+            <div class="card__rich-media p-6">
+              <div class="qr-scan">
+                <div class="scan"></div>
+                <div class="scan"></div>
+                <div class="scan"></div>
+                <div class="scan"></div>
+                <img src="/images/qr-code.jpg" alt="" srcset="">
+              </div>
             </div>
             <div class="card__content pt-5">
               <p class="text-lg lg:text-xl font-semibold text-center">สะดวกและรวดเร็ว</p>
@@ -139,5 +145,76 @@ import { Autoplay } from 'swiper/modules'
   gap: 0.5rem;
   background: linear-gradient(90deg, #E9F0E9 0%, #D9DBE9 100%);
   border-radius: 0.2rem;
+}
+
+.qr-scan {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+
+  &:hover {
+    .scan {
+      opacity: 0.1;
+    }
+
+    .scan:nth-child(1) {
+      left: -0.625rem;
+      top: -0.625rem;
+    }
+
+    .scan:nth-child(2) {
+      right: -0.625rem;
+      top: -0.625rem;
+    }
+
+    .scan:nth-child(3) {
+      left: -0.625rem;
+      bottom: -0.625rem;
+    }
+
+    .scan:nth-child(4) {
+      right: -0.625rem;
+      bottom: -0.625rem;
+    }
+  }
+
+
+  .scan {
+    position: absolute;
+    z-index: 2;
+    border-top: 0.125rem solid #000;
+    border-left: 0.125rem solid #000;
+    border-top-left-radius: 0.5625rem;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0;
+    transition: all 0.3s ease;
+
+
+
+    &:nth-child(1) {
+      left: -2rem;
+      top: -2rem;
+    }
+
+    &:nth-child(2) {
+      right: -2rem;
+      top: -2rem;
+      rotate: 90deg;
+    }
+
+    &:nth-child(3) {
+      left: -2rem;
+      bottom: -2rem;
+      rotate: 270deg;
+    }
+
+    &:nth-child(4) {
+      right: -2rem;
+      bottom: -2rem;
+      rotate: 180deg;
+    }
+  }
 }
 </style>

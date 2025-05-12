@@ -1,8 +1,8 @@
 <template>
-  <footer class="pt-24">
+  <footer class="pt-16 lg:pt-24">
     <div class="mx-auto">
       <h3 class="text-lg sm:text-2xl lg:text-4xl font-semibold text-center uppercase leading-none">CONTACT US?</h3>
-      <p class="max-w-2xs lg:max-w-4xl text-xs md:text-base text-center pt-3 sm:pt-5 mx-auto!">
+      <p class="max-w-2xs lg:max-w-lg text-xs md:text-base text-center pt-3 sm:pt-5 mx-auto!">
         ปรึกษาและสอบถามข้อมูลเพิ่มเติม เราพร้อมดูแลทุกคำถาม
         เพื่อให้ทุกโอกาสพิเศษของคุณสมบูรณ์แบบที่สุด!</p>
     </div>
