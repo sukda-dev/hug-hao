@@ -16,19 +16,9 @@ export default defineNuxtConfig({
   ],
   vite: {
     plugins: [tailwindcss()],
-    // build: {
-    //   rollupOptions: {
-    //     output: {
-    //       assetFileNames: "assets/[name].[hash][extname]",
-    //       chunkFileNames: "assets/[name].[hash].js",
-    //     },
-    //   },
-    // },
-    // // Setting publicPath here:
-    // base: "/hug-hao/", 
   },
   app: {
-    baseURL: '/hug-hao/',   // ✅ important for assets and routing
-    buildAssetsDir: '_nuxt/', // ✅ default, but make sure it’s not empty
+    baseURL: '/',         
+    buildAssetsDir: '_nuxt/', 
   },
 });
