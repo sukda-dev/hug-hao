@@ -13,15 +13,15 @@
         <p class="text-base text-white">Wedding Invites</p>
 
         <div class="icons flex gap-2 md:gap-4 pt-4">
-          <i class="icon icon--facebook"></i>
-          <i class="icon icon--email"></i>
-          <i class="icon icon--phone"></i>
+          <!-- <i class="icon icon--facebook"></i> -->
+          <a href="mailto:hughao.wedding@gmail.com"><i class="icon icon--email"></i></a>
+          <!-- <i class="icon icon--phone"></i> -->
         </div>
       </div>
       <div class="card-side w-1/2 flex flex-col justify-center items-center">
         <p class="text-[0.625rem] md:text-xs font-semibold text-white">ปรึกษาเราผ่าน LINE</p>
         <img class="qr-code py-1.5 h-20 md:h-32" src="/images/line-qr.png" alt="">
-        <p class="text-[0.625rem] md:text-xs font-semibold text-white">sukda.prompalit</p>
+        <p class="text-[0.625rem] md:text-xs font-semibold text-white">ฮักเฮา | Hug Hao</p>
       </div>
     </div>
   </footer>
