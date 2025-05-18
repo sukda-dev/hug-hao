@@ -12,12 +12,20 @@
       <img class="block mx-auto max-w-full" src="/images/phones.png" alt="Design Your Memories Showcase">
     </div>
   </div>
+  <button class="btn bg-[#393737] rounded-xl flex gap-3 px-3 py-2 mx-auto my-4 md:my-8 cursor-pointer" @click="openPreview">
+    <p class="text-white text-lg md:text-xl font-semibold">Preview</p>
+    <img src="/images/icon-button.png" alt="">
+  </button>
 </template>
 
 <script>
 export default {
   setup() {
-    return {}
+ const openPreview = () => {
+      window.open('https://hug-hao-ice-bank.pages.dev/?_invite1=welcome', '_blank');
+    };
+
+    return { openPreview };
   }
 }
 </script>
