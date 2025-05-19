@@ -21,27 +21,27 @@
     >
       <swiper-slide>
         <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
-          <img class="gif" src="/gifs/gif1.gif" alt="App demo screen 1" />
+          <img class="gif pointer-events-none" src="/gifs/gif1.gif" alt="App demo screen 1" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
-          <img class="gif" src="/gifs/gif2.gif" alt="App demo screen 2" />
+          <img class="gif pointer-events-none" src="/gifs/gif2.gif" alt="App demo screen 2" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
-          <img class="gif" src="/gifs/gif3.gif" alt="App demo screen 3" />
+          <img class="gif pointer-events-none" src="/gifs/gif3.gif" alt="App demo screen 3" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
-          <img class="gif" src="/gifs/gif4.gif" alt="App demo screen 4" />
+          <img class="gif pointer-events-none" src="/gifs/gif4.gif" alt="App demo screen 4" />
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="frame w-[15.2rem] h-[30.95rem] md:w-[19rem] md:h-[38.6875rem]">
-          <img class="gif" src="/gifs/gif5.gif" alt="App demo screen 5" />
+          <img class="gif pointer-events-none" src="/gifs/gif5.gif" alt="App demo screen 5" />
         </div>
       </swiper-slide>
     </swiper>

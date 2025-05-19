@@ -9,12 +9,12 @@
       </p>
     </div>
     <div class="relative max-w-2xl mx-auto mt-8 md:mt-16 px-4 sm:px-0">
-      <img class="block mx-auto max-w-full" src="/images/phones.png" alt="Design Your Memories Showcase">
+      <img class="block mx-auto max-w-full pointer-events-none" src="/images/phones.png" alt="Design Your Memories Showcase">
     </div>
   </div>
-  <button class="btn bg-[#393737] rounded-xl flex gap-3 px-3 py-2 mx-auto my-4 md:my-8 cursor-pointer" @click="openPreview">
-    <p class="text-white text-lg md:text-xl font-semibold">Preview</p>
-    <img src="/images/icon-button.png" alt="">
+  <button class="btn bg-[#393737] rounded-2xl flex items-center justify-center gap-2 px-3 py-2 mx-auto my-4 md:my-8 cursor-pointer" @click="openPreview">
+    <p class="text-white text-xs md:text-base font-semibold">Preview</p>
+    <img class="size-[12px] md:size-[20px]" src="/images/icon-button.png" alt="">
   </button>
 </template>
 

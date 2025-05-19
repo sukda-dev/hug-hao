@@ -6,7 +6,7 @@
       <div class="cards flex justify-center items-center flex-col lg:flex-row gap-8 gl:gap-0 pt-6 md:pt-16">
         <div class="crad">
           <div class="crad__img">
-            <img class="absolute" src="/images/card1.png" alt="" srcset="">
+            <img class="absolute pointer-events-none" src="/images/card1.png" alt="" srcset="">
           </div>
           <div class="crad__content pt-8 py-7">
             <p class="text-base font-semibold text-center">ออกแบบการ์ดในสไตล์ที่เป็นคุณ</p>
@@ -17,7 +17,7 @@
         </div>
         <div class="crad">
           <div class="crad__img">
-            <img class="absolute" src="/images/card2.png" alt="" srcset="">
+            <img class="absolute pointer-events-none" src="/images/card2.png" alt="" srcset="">
           </div>
           <div class="crad__content pt-8 py-7">
             <p class="text-base font-semibold text-center">รายละเอียดงานและปฏิทินนับถอยหลัง</p>
@@ -29,7 +29,7 @@
         </div>
         <div class="crad">
           <div class="crad__img">
-            <img class="absolute" src="/images/card3.png" alt="" srcset="">
+            <img class="absolute pointer-events-none" src="/images/card3.png" alt="" srcset="">
           </div>
           <div class="crad__content pt-8 py-7">
             <p class="text-base font-semibold text-center">นำทางด้วย Google Map</p>

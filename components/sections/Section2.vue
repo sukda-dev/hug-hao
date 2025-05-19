@@ -68,7 +68,7 @@
                 <div class="scan"></div>
                 <div class="scan"></div>
                 <div class="scan"></div>
-                <img src="/images/qr-code.jpg" alt="" srcset="">
+                <img class="pointer-events-none" src="/images/qr-code.jpg" alt="" srcset="">
               </div>
             </div>
             <div class="card__content pt-5">
