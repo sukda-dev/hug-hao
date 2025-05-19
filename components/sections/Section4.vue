@@ -69,8 +69,10 @@ export default {
       top: -78px;
       left: calc(50% - 19.8375rem / 2);
       transition: all 0.5s ease-in-out;
+    }
 
-      &:hover {
+    &:hover {
+      img {
         top: 0;
       }
     }
